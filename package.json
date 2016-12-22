@@ -1,6 +1,6 @@
 {
-	"name": "nativefier",
-	"version": "7.0.1",
+	"name": "nativefier-willyb321",
+	"version": "7.1.0",
 	"description": "Wrap web apps natively",
 	"keywords": [
 		"desktop",
@@ -32,7 +32,7 @@
 	"author": "",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/jiahaog/willyb321/issues"
+		"url": "https://github.com/willyb321/issues"
 	},
 	"homepage": "https://github.com/willyb321/nativefier#readme",
 	"dependencies": {
