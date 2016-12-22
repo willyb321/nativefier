@@ -3,7 +3,7 @@ import _ from 'lodash';
 import log from 'loglevel';
 
 const ELECTRON_VERSIONS_URL = 'https://atom.io/download/atom-shell/index.json';
-const DEFAULT_CHROME_VERSION = '47.0.2526.73';
+const DEFAULT_CHROME_VERSION = '53.0.2785.143';
 
 function getChromeVersionForElectronVersion(electronVersion, url = ELECTRON_VERSIONS_URL) {
     return axios.get(url, {timeout: 5000})
