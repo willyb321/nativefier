@@ -6,10 +6,11 @@ deep-equal@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
 
-electron-dl@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/electron-dl/-/electron-dl-1.5.0.tgz#b58d654e53eb2b58790dd6fb44942bed1af7c1b6"
+electron-dl@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/electron-dl/-/electron-dl-1.6.0.tgz#ca66e7458fd420d2764f2700265a04ec8fe3997e"
   dependencies:
+    pupa "^1.0.0"
     unused-filename "^0.1.0"
 
 electron-window-state@^4.0.1:
@@ -48,9 +49,13 @@ path-exists@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
 
-source-map-support@^0.4.6:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.6.tgz#32552aa64b458392a85eab3b0b5ee61527167aeb"
+pupa@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/pupa/-/pupa-1.0.0.tgz#9a9568a5af7e657b8462a6e9d5328743560ceff6"
+
+source-map-support@^0.4.11:
+  version "0.4.11"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.11.tgz#647f939978b38535909530885303daf23279f322"
   dependencies:
     source-map "^0.5.3"
 
